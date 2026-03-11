@@ -1,0 +1,112 @@
+body{
+font-family:Roboto;
+margin:0;
+background:#f5f5f5;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+background: #D0E3CC;
+color:#222;
+padding:15px;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+.nav-links a{
+color:#222;
+text-decoration:none;
+font-weight: bold;
+}
+
+.hero{
+text-align:center;
+padding:80px;
+background:#F7FFDD;
+}
+.submit-button{
+background-color: #FCFDAF;
+text-decoration: none;
+padding: 15px;
+border-radius: 30px;
+border-width: 1px;
+font-weight: bold;
+font-size: 16px;
+cursor: pointer;
+
+            
+}
+
+.submit-button:hover{
+background-color: rgb(96, 119, 163);
+
+}
+a{
+    text-decoration: none;
+    color: #DBA159;
+    font-weight: 900;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:30px;
+}
+
+.product-card{
+background:white;
+padding:15px;
+border-radius:10px;
+text-align:center;
+}
+.cart-product-card{
+padding:15px;
+border-radius:10px;
+}
+.cart-product-card img{
+width: 150px;
+height: 150px;
+object-fit: cover;
+border-radius: 100px;
+
+}
+
+.product-card img{
+width: 100px;
+height: 100px;
+object-fit: cover;
+}
+
+.form-container{
+width:300px;
+margin:100px auto;
+background:white;
+padding:20px;
+border-radius:10px;
+}
+
+.form-container input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.product-page{
+display:flex;
+gap:40px;
+padding:40px;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+background:#D0E3CC;
+color:#222;
+
+}
