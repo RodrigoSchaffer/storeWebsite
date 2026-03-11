@@ -9,20 +9,21 @@
             margin-left: 5px;
         }
         
+        
     </style>
 </head>
 <body>
     <header>
   <nav class="navbar">
 
-    <h1 class="logo">WebStore</h1>
+    <h1 class="logo">WebStore.</h1>
 
     <ul class="nav-links">
       <li><a href="homePage.html">Home</a></li>
       <li><a href="vendorProfile.html">Sobre</a></li>
       <li><a href="logInPage.html">Log-In</a></li>
       <li><a href="signUpPage.html">Sign-Up</a></li>
-      <li><a href="cart.html">Carrinho</a></li>
+      <li><a href="cart.html" class="cart-icon"><img src="../images/cart.png"></a></li>
     </ul>
 
   </nav>
@@ -34,27 +35,37 @@
   <div class="cart-product-card">
     <ul>
         <li>
-            <div>
-        <img src="../images/mouse.jpg">
-        <h3>Mouse</h3>
+            <img src="../images/mouse.jpg">
+            <div class="cart-product-row">
+        <h3>Attack Shark X11</h3>
 
         <p>R$200</p>
+        <p>Mouse Gamer ATTACK SHARK X11 Sem Fio Tri-Mode (2.4G/Bluetooth/USB) Com Base RGB - Ergonômico, Alta Precisão.</p>
+        </div>
+        </li>
+        <li>
+            <img src="../images/teclado.jpg">
+            <div class="cart-product-row">
+        <h3>Ajazz K820</h3>
+
+        <p>R$265</p>
+        <p>ATTACK SHARK x AJAZZ AK820 Teclado mecânico para jogos RGB com fio e botão CNC,layout 75% ANSI,junta de 82 teclas,5 espumas de absorção de som,interruptor linear hot-swap,para PC MAC (Azul Roxo)</p>
         </div>
         </li>
         
     </ul>
+
     
-    <div class="cart-to-payment">
-    <button class="submit-button">Finalizar compra</button>
+
+  </div>
+  <div class="cart-to-payment">
+      <p><span class="details">Subtotal: R$ 465.00, 2 itens.</span></p>
+      <button class="submit-button">Finalizar compra</button>
+
 
     </div>
 
-  </div>
-
 </section>
-
-
-
 
 
 
